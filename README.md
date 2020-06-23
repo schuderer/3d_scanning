@@ -23,13 +23,13 @@ Installation:
 
 Usage:
 1. Take suitable photos of your object. There are [many guides](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/) on how to do this properly. In a nutshell
-  - a good camera with a lot of details necessary (modern smartphones are usually sufficient), RAW format would be great, but big (multi-MB) JPEG might be sufficient as well.
-  - you want good lighting,
-  - you need a lot of photos (50+),
-  - the object has to be perfectly in focus in all pictures (easy to misjudge when you are too close to small objects),
-  - the object must not be moved nor must there be lighting variation (turn off/lock your camera's white balance and automatic exposure),
-  - there must not be any glare/reflection *at all* (baby powder is useful for making glossy surfaces matte),
-  - have as little irrelevant non-object details in the picture as possible -- if there are, you might have to edit them out in a photo editing software, or, better still, apply [the void technique](https://www.youtube.com/watch?v=Il6LVXqSlRg).
+    - a good camera with a lot of details necessary (modern smartphones are usually sufficient), RAW format would be great, but big (multi-MB) JPEG might be sufficient as well.
+    - you want good lighting,
+    - you need a lot of photos (50+),
+    - the object has to be perfectly in focus in all pictures (easy to misjudge when you are too close to small objects),
+    - the object must not be moved nor must there be lighting variation (turn off/lock your camera's white balance and automatic exposure),
+    - there must not be any glare/reflection *at all* (baby powder is useful for making glossy surfaces matte),
+    - have as little irrelevant non-object details in the picture as possible -- if there are, you might have to edit them out in a photo editing software, or, better still, apply [the void technique](https://www.youtube.com/watch?v=Il6LVXqSlRg).
 2. Save your photos in a subfolder of your `3D-Scanning` folder, e.g. `Banana` (no spaces allowed).
 3. In the `3D-Scanning` folder in Terminal, run the command `./process_directory.sh Banana`.
 4. The result will be placed in the `3D-Scanning` folder, in this case the file will be called `Banana.obj'.
