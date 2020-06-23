@@ -12,6 +12,7 @@ I'd say that this is the most user-friendly free solution I could find. Except f
 The directory `photogrammetry` contains a working open source solution to create 3D scans from photos on a Mac (that does not have CUDA). It is based on [Peter Falkingham's extensive tests](https://peterfalkingham.com/2018/05/22/photogrammetry-testing-12-revisiting-openmvg-with-openmvs/), but adapted for macOS. It has been tested on macOS 10.13 High Sierra and contains the following files:
 - `install_mac.sh`: Installation script for the necessary open source software [openMVG](https://github.com/openMVG/openMVG) and [openMVS](http://cdcseacave.github.io/openMVS/).
 - `process_directory.sh`: Script to analyze a folder with images and create a 3D mesh (.obj file).
+- There are also some example files that show the input and output of scanning a small frog-related trinket.
 
 Installation:
 1. Install [homebrew](https://brew.sh/) (A tool to install packages on macOS in a Linux-like fashion. This will also install XCode command line tools if necessary.)
@@ -31,7 +32,8 @@ Usage:
   - have as little irrelevant non-object details in the picture as possible -- if there are, you might have to edit them out in a photo editing software, or, better still, apply [the void technique](https://www.youtube.com/watch?v=Il6LVXqSlRg).
 2. Save your photos in a subfolder of your `3D-Scanning` folder, e.g. `Banana` (no spaces allowed).
 3. In the `3D-Scanning` folder in Terminal, run the command `./process_directory.sh Banana`.
-4. The result will be placed in the `3D-Scanning` folder, in this case `Banana.obj'.
+4. The result will be placed in the `3D-Scanning` folder, in this case the file will be called `Banana.obj'.
+5. Fix and post-process the resulting model in a software like Meshmixer or Blender (for the frog example, I of course chose Meshmixer).
 
 Notes and caveats:
 - Reconstruction of the 3D object is a multi-hour process (I saw anything between 2 and 6 hours). The file `process_directory.sh` contains some rough indications of how long which steps might take. I usually run this process overnight.
@@ -39,3 +41,5 @@ Notes and caveats:
 - If your Mac is not very powerful, and particularly if does not have a lot (e.g. 16GB) of RAM, it is advisable to close all other applications and not use the computer, in order to free up processing power and particularly to free up ram. Otherwise, macOS will constantly swap data between RAM and SSD, and the process slows to a crawl by an order of magnitude (think 30 hours instead of 3 hours).
 - If you do have a CUDA-able Mac, you should use CUDA-able software to speed the process up by an order of magnitude. If you don't know what CUDA is, you probably haven't and should be fine with the scripts here.
 - I'm aware that there are other solutions like iPhone apps where you put the object on a sheet with markers, using newer iPhones with depth sensors, etc. But I did not like the performance of the former, and don't have the latter. :)
+
+![The example object being covered with baby powder](https://raw.githubusercontent.com/schuderer/3d_scanning/master/photogrammetry/preparation.png)
