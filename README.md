@@ -1,9 +1,9 @@
 # 3d_scanning
 Ways to do 3D scanning on a Mac for free. It has to be free because you've spent all you have on that Mac. :o)
 
-I put this up here because, as someone who just wanted to try out 3D scanning out of curiosity, I spent a disproportionate of time searching in vain for 3D scanning tools that are (a) available for macOS, (b) easy to use without a lot of learning, (c) free.
+I put this up here because, as someone who just wanted to try out 3D scanning out of curiosity, I spent a disproportionate of time searching in vain for 3D scanning tools that are (a) available for macOS, (b) easy to use without a lot of learning, (c) free. Everything ready-to-use that I came across is either discontinued or requires extra hardware or a different operating system.
 
-Everything ready-to-use that I came across is either discontinued or requires extra hardware or a different operating system.
+But the stuff here works! :)
 
 ## Photogrammetry
 
