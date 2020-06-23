@@ -19,7 +19,7 @@ Installation:
 2. Download `install_mac.sh` and `process_directory.sh` and put them into a folder you created specifically for 3D scanning (e.g. `3D-Scanning`).
 3. In the Terminal application, navigate to this folder (type `cd ` and then drag the folder from Finder into the Terminal window, and press Enter)
 4. Run the command `chmod u+x *.sh` (and as for all commands, press Enter)
-5. Run the command `./install_mac.sh`. This will install all needed components.
+5. Run the command `./install_mac.sh` (mind the `./` at the beginning). This will install all needed components.
 
 Usage:
 1. Take suitable photos of your object. There are [many guides](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/) on how to do this properly. In a nutshell
