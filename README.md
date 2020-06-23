@@ -22,9 +22,9 @@ Installation:
 5. Run the command `./install_mac.sh` (mind the `./` at the beginning). This will install all needed components.
 
 Usage:
-1. Take suitable photos of your object. There are [many guides](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/) on how to do this properly. In a nutshell
-    - a good camera with a lot of details necessary (modern smartphones are usually sufficient), RAW format would be great, but big (multi-MB) JPEG might be sufficient as well.
-    - you want good lighting,
+1. Take suitable photos of your object. There are [many guides](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/) on how to do this properly. In a nutshell,
+    - you need a good camera with a lot of details (modern smartphones are usually sufficient). RAW format would be great, but big (multi-MB) JPEG might be sufficient as well.
+    - You want good lighting,
     - you need a lot of photos (50+),
     - the object has to be perfectly in focus in all pictures (easy to misjudge when you are too close to small objects),
     - the object must not be moved nor must there be lighting variation (turn off/lock your camera's white balance and automatic exposure),
