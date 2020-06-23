@@ -33,7 +33,7 @@ Usage:
 2. Save your photos in a subfolder of your `3D-Scanning` folder, e.g. `Banana` (no spaces allowed).
 3. In the `3D-Scanning` folder in Terminal, run the command `./process_directory.sh Banana`.
 4. The result will be placed in the `3D-Scanning` folder, in this case the file will be called `Banana.obj'.
-5. Fix and post-process the resulting model in a software like Meshmixer or Blender (For the frog example, I chose Meshmixer. I am not a monster.).
+5. Fix and post-process the resulting model in a software like Meshmixer or Blender (for the frog example, I chose Meshmixer. I am not a monster).
 
 Notes and caveats:
 - Reconstruction of the 3D object is a multi-hour process (I saw anything between 2 and 6 hours). The file `process_directory.sh` contains some rough indications of how long which steps might take. I usually run this process overnight.
